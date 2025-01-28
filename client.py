@@ -42,7 +42,6 @@ if __name__ == "__main__":
                 encoding="utf-8",
                 level=logging.DEBUG
             )
-
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     srv_address = ("localhost", 8080)
     sock.connect(srv_address)
